@@ -75,6 +75,8 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-
+  $('.button_3').hover(function() {
+    $('.button_2').toggleClass('button_4');
+  });
 
 })(jQuery); // End of use strict
