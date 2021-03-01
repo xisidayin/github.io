@@ -193,6 +193,19 @@ a:hover {
   color: lightblue;
 }
 
+.button_5 {
+  display: inline-block;
+  height: 40px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 30px;
+  background-color: lightgrey;
+  border: 4px solid #ECE9E9;
+  transition: all 0.5s linear;
+  padding: 4px;
+  color: grey;
+}
+
 .button_1:hover, .button_3:hover {
   background-color: lightblue;
   border-color: #3333ff;
