@@ -316,3 +316,9 @@ footer p {
     height: 20vh;
   }
 }
+
+@media screen and (max-width:414px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+}
